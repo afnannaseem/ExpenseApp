@@ -108,7 +108,7 @@ const Home = () => {
   return (
     <Container>
       <Typography variant="h4" gutterBottom>
-        Your Expense Lists
+        Expense Lists
       </Typography>
       <List>
         {lists.map((list) => (
