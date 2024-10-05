@@ -2,8 +2,7 @@
 
 import axios from "axios";
 
-const API_URL = "https://expenseapp-2koq.onrender.com/api";
-
+const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000/api";
 // Lists
 export const getLists = async () => {
   return await axios.get(`${API_URL}/lists`);
