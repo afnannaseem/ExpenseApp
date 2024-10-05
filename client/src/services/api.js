@@ -2,7 +2,7 @@
 
 import axios from "axios";
 
-const API_URL = https://expenseapp-2koq.onrender.com/api
+const API_URL = https://expenseapp-2koq.onrender.com/api;
 
 // Lists
 export const getLists = async () => {
