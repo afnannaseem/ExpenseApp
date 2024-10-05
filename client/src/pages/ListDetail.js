@@ -290,31 +290,6 @@ const ListDetail = () => {
           Download PDF
         </Button>
       </Box>
-
-      {/* Date Range Filters */}
-      <Box sx={{ display: "flex", gap: 2, marginBottom: 2 }}>
-        <TextField
-          label="From"
-          type="date"
-          name="from"
-          value={filterDates.from}
-          onChange={handleDateChange}
-          InputLabelProps={{
-            shrink: true,
-          }}
-        />
-        <TextField
-          label="To"
-          type="date"
-          name="to"
-          value={filterDates.to}
-          onChange={handleDateChange}
-          InputLabelProps={{
-            shrink: true,
-          }}
-        />
-      </Box>
-
       <List>
         {expenses.map((expense) => (
           <ListItem
