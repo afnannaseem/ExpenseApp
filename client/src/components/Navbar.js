@@ -266,6 +266,7 @@ const Navbar = () => {
         PaperProps={{
           sx: {
             borderRadius: "0 12px 12px 0",
+            overflowX: "hidden"  // This prevents horizontal scrolling
           },
         }}
       >
