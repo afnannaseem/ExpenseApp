@@ -301,7 +301,7 @@ const ListDetail = () => {
           </Typography>
         </Box>
 
-        <Box display="flex" gap={3} mb={3}>
+        <Box display="flex" gap={4} mb={3}>
           <Button
             variant="contained"
             startIcon={<AddIcon />}
@@ -327,7 +327,7 @@ const ListDetail = () => {
             sx={{
               borderRadius: 2,
               textTransform: "none",
-              px: 2,
+              px: 3.5,
               py: 1,
               borderColor: theme.palette.primary.main,
               color: theme.palette.primary.main,
