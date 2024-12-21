@@ -309,7 +309,7 @@ const ListDetail = () => {
             sx={{
               borderRadius: 2,
               textTransform: "none",
-              px: 2,
+              px: 2.5,
               py: 1,
               boxShadow: theme.shadows[2],
               background: `linear-gradient(45deg, ${theme.palette.primary.main}, ${theme.palette.primary.dark})`,
@@ -327,7 +327,7 @@ const ListDetail = () => {
             sx={{
               borderRadius: 2,
               textTransform: "none",
-              px: 3.5,
+              px: 3,
               py: 1,
               borderColor: theme.palette.primary.main,
               color: theme.palette.primary.main,
