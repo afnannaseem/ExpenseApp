@@ -113,7 +113,7 @@ const Home = () => {
       <Paper 
         elevation={0}
         sx={{
-          background: `linear-gradient(145deg, ${alpha(theme.palette.primary.main, 0.1)}, ${alpha(theme.palette.primary.main, 0.05)})`,
+          background: `inherit`,
           p: 4,
         }}
       >
